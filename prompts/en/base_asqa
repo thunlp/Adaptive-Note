@@ -1,0 +1,10 @@
+Instruction: Write an accurate, engaging, and concise answer for the given question using only the provided passages. Use an unbiased and journalistic tone.
+
+
+Question:
+{query}
+
+
+Passages:
+{refs}
+

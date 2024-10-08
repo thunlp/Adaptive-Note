@@ -1,0 +1,8 @@
+Task: Based on the notes, propose two new questions. These new questions will be used to retrieve documents to supplement the notes and help answer the original question. The new questions should be concise and include keywords that facilitate retrieval. The new questions should avoid duplication with the existing question list.
+
+original question: {query}
+notes: {note}
+
+existing question list: {query_log}
+
+Provide your two new questions:

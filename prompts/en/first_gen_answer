@@ -1,0 +1,8 @@
+Based on the provided document content, write a note. The note should integrate all relevant information from the original text that can help answer the specified question and form a coherent paragraph. Please ensure that the note includes all original text information useful for answering the question.
+
+
+Question to be answered: {query}
+Document content: {refs}
+
+
+Please provide the note you wrote:

@@ -1,0 +1,15 @@
+Task: Please help me determine which note is better based on the following evaluation criteria:
+1. Contains key information directly related to the question.
+2. Completeness of Information: Does it cover all relevant aspects and details?
+3. Level of Detail: Does it provide enough detail to understand the issue in depth?
+4. Practicality: Does the note offer practical help and solutions?
+
+Please make your judgment adhering strictly to the following rules:
+- If Note 2 does not add new meaningful content on top of Note 1, or only adds redundant information, return {{"status":"False"}} directly.
+- If Note 2 has significant improvements over Note 1 based on the above criteria, return {{"status":"True"}} directly; otherwise, return {{"status":"False"}}.
+
+Question: {query}
+Provided Note 1: {best_note}
+Provided Note 2: {new_note}
+
+Based on the above information, make your judgment without explanation and return the result directly.

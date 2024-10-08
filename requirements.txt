@@ -1,0 +1,13 @@
+backoff
+elasticsearch
+faiss_cpu
+jieba
+loguru
+numpy
+openai
+pandas
+sentence_transformers
+torch
+tqdm
+transformers
+pyyaml

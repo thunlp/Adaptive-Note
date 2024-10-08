@@ -1,0 +1,9 @@
+Complete the following task:
+The questions that need to be answered are: {query}
+To answer these questions, I retrieved some passages.
+Passages: {refs}
+Based on the content of the questions to be answered, Please label each passage with two tags and give the reason, the first one is whether it is useful or not, and the second one is whether it is relevant or not,
+The four possible scenarios are as follows:
+1.<useful><relevant>, 2.<useless><relevant>, 3.<useful><irrelevant>, 4.<useless><irrelevant>.
+Generation Format:
+1. passage:..., label:..., reason:...

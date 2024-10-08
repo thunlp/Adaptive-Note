@@ -1,0 +1,6 @@
+Complete the following task:
+The questions that need to be answered are: {query}
+To answer these questions, I retrieved some passages.
+Passages: {refs}
+Task: Based on the content of the questions to be answered,
+Please extract relevant and useful information from these passages then provide a summary and analysis of these passages.

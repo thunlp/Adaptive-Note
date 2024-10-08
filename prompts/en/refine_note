@@ -1,0 +1,8 @@
+Task: Based on the retrieved documents, supplement the notes with content not yet included but useful for answering the question. The supplement should use the original text from the retrieved documents. The added content should include as much information from the retrieved documents as possible.
+
+question: {query}
+retrieved documents: {refs}
+
+notes: {note}
+
+Provide your supplemented notes:

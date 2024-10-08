@@ -1,0 +1,9 @@
+model:
+  OPENAI_API_KEY: ""
+  OPENAI_BASE_URL: ""
+  llama3-8b-instruct: "meta-llama/Meta-Llama-3-8B-Instruct"
+  qwen2-7b-instruct: "Qwen/Qwen2-7B-Instruct"
+  bge-base-zh-v1.5: "BAAI/bge-base-zh-v1.5"
+  gtr-t5-xxl: "sentence-transformers/gtr-t5-xxl"
+es:
+  url: "http://localhost:9200"
