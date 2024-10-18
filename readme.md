@@ -1,6 +1,15 @@
 <h1 align="center">
     Retriever-and-Memory: Towards Adaptive Note-Enhanced Retrieval-Augmented Generation
 </h1>
+
+
+<div align="center">
+
+[![Python 3.10](https://img.shields.io/badge/python-%E2%89%A53.10-blue)](https://www.python.org/downloads/release/python-3109/)
+[![Arxiv](https://img.shields.io/badge/arXiv-2408.01262-red)](https://arxiv.org/abs/2410.08821)
+
+</div>
+
 We propose a generic RAG approach called Adaptive Note-
 Enhanced RAG (Adaptive-Note) for complex QA tasks,
 which includes the iterative information collector, adaptive
@@ -101,3 +110,29 @@ python metrics_questeval_crud.py --eval_path {saved predict file}
 ```
 
 The evaluation results will be automatically saved in the `output/{dataset}/{method}/{model}/metric_questeval` directory.
+
+
+## Citation
+Please cite the following paper if you find Adaptive-Note helpful!
+```bibtex
+@misc{wang2024retrieverandmemoryadaptivenoteenhancedretrievalaugmented,
+      title={Retriever-and-Memory: Towards Adaptive Note-Enhanced Retrieval-Augmented Generation}, 
+      author={Ruobing Wang and Daren Zha and Shi Yu and Qingfei Zhao and Yuxuan Chen and Yixuan Wang and Shuo Wang and Yukun Yan and Zhenghao Liu and Xu Han and Zhiyuan Liu and Maosong Sun},
+      year={2024},
+      eprint={2410.08821},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2410.08821}, 
+}
+```
+
+
+<p align="center">
+<a href="https://star-history.com/#Significant-Gravitas/AutoGPT">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=thunlp/Adaptive-Note&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=thunlp/Adaptive-Note&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Significant-Gravitas/AutoGPT&type=Date" />
+  </picture>
+</a>
+</p>
